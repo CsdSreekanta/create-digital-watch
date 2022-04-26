@@ -27,6 +27,9 @@
     border:none;
     background-color:#fad084fe;
 }
+.btn-cart:hover{
+    background-color: gold;
+}
 
 .cart-text{
     margin-right: 10px;
