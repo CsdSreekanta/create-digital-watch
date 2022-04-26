@@ -14,8 +14,28 @@
     
 }
 .cart-container{
-    position: sticky;
-     top: 0;
+    position:sticky;
+    top:0;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    width:70%
+}
+.btn-container button{
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.btn-container .choose{
+    color:#049012;
+    
+}
+.btn-container .choose-again{
+    color:blueviolet;
+    
+
 }
 
 
