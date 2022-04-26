@@ -1,0 +1,75 @@
+[
+    {
+      "id":1,
+      "price": 35,
+      "name": "CASIO G-SHOCK DIGITAL WATCH",
+      "img": "https://ibb.co/Lxvb9Jn"
+    },
+    {
+      "id":2,
+      "price": 20,
+      "name": "Tissot-T-Touch Expert Solar",
+      "img":"https://ibb.co/yBkgQ3T"
+    },
+    {
+      "id": 3,
+      "price": 20,
+      "name": "Suunto Core",
+      "img": "https://ibb.co/xFct3tS"
+    },
+    {
+      "id": 4,
+      "price": 21,
+      "name": "Casio Pro Trek PRW Digital Watch",
+      "img": "https://ibb.co/87vcXHT"
+    },
+    {
+      "id": 5,
+      "price": 23,
+      "name": "Timex Expedition Shock CAT",
+      "img": "https://ibb.co/ynKwzG2"
+    },
+    {
+      "id": 6,
+      "price": 35,
+      "name": "G-Shock MTGM900DA-8CR",
+      "img": "https://ibb.co/2KNGFSV"
+    },
+    {
+      "id": 7,
+      "price": 35,
+      "name": "SEIKO PRospex Fieldmaster Lowercse ",
+      "img": "https://ibb.co/ZfDRgD7"
+    },
+    {
+      "id": 8,
+      "price": 35,
+      "name": "G-Shock MTGM900DA-8CR",
+      "img": "https://ibb.co/qJnJM44"
+    },
+    {
+      "id": 9,
+      "price": 35,
+      "name": "Timex Ironman Classic 100",
+      "img": "https://ibb.co/qnFB0TR"
+    },
+    {
+      "id": 10,
+      "price": 35,
+      "name": "Hamilton Khaki Aviation Flight Timer",
+      "img": "https://ibb.co/JQmVSjT"
+    },
+    {
+      "id": 11,
+      "price": 35,
+      "name": "Braun BN0789",
+      "img": "https://ibb.co/TTyHZM8"
+    },
+    {
+      "id": 12,
+      "price": 35,
+      "name": "Casio A189WG",
+      "img": "https://ibb.co/qgFYvvS"
+    }
+    
+  ]

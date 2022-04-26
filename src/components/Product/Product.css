@@ -1,0 +1,33 @@
+.product{
+    border: 1px solid goldenrod;
+    height: 508px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px;
+    position: relative;
+   
+   
+}
+.product img{
+    height: 268px;
+    width:268px;
+    border-radius: 8px;
+    margin-top:10px;
+    
+    
+}
+.btn-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position:absolute;
+    bottom:0;
+    border-radius:0px 0px 0px 8px;
+    border:none;
+    background-color:#fad084fe;
+}
+
+.cart-text{
+    margin-right: 10px;
+}
