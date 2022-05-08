@@ -1,25 +1,17 @@
-import React from 'react';
+import { setSelectionRange } from '@testing-library/user-event/dist/utils';
+import React, { useState } from 'react';
 import './Cart.css'
 
 const Cart = ({cart}) => {
- let name =[];
- for(const product of cart){
-    name = name +product.name
- }
-
-
-  
-    
-
-   
-    
+    console.log(cart)
+ 
     return (
         <div className='cart'>
-            {/* <p>this is for cart: {cart.length}</p> */}
-            <p>{name}</p>
-           
-           
             
+           { 
+           cart.map(item => <p className='item-title'>{item.name}</p>)
+           }
+           
         </div>
     );
 };

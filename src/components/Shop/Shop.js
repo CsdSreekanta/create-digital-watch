@@ -5,8 +5,10 @@ import './Shop.css'
 
 const Shop = () => {
 const [products, setProducts] = useState([])
-const [cart, setCart]= useState([])
-const [newCart, setNewCart] = useState([])
+const [cart, setCart]= useState([]);
+
+ // console.log(cart)
+
 
 useEffect(() =>{
     fetch('products.json')
@@ -15,21 +17,26 @@ useEffect(() =>{
 },[]);
 
 const handleAddToCart =(product) =>{
+    
    const newCart = [...cart, product];
-   setCart(newCart)
    if(newCart.length>4){
-       alert("sorry")
-   }
-}
+    alert("You are not allowed to select more than four items") 
+    return;
+} 
+   setCart(newCart) 
   
-
+}
 
 
     return (
         <div>
             <div className="shop-container">
+
+                
+               
                 <div className="products-container">
-                   
+               
+               
                    {
                        products.map(product =><Product
                        key={product.id}
@@ -40,13 +47,16 @@ const handleAddToCart =(product) =>{
                    }
                 </div>
                 <div className="cart-container">
-                    <h1>this is cart</h1>
-                        <Cart
-                       cart={cart}
-                       ></Cart>
+                    <h2>Order Summary</h2>
+                  
+           <Cart
+            cart={cart}
+            key={cart.id}
+            ></Cart>  
+                 
                     <div className="btn-container">
-                        <button className='choose'>CHOOSE 1 FOR ME</button>
-                        <button className='choose-again'>CHOOSE AGAIN</button>
+                        <button  className='choose'>CHOOSE 1 FOR ME</button>
+                        <button  className='choose-again'>CHOOSE AGAIN</button>
                     </div>
                     
                 </div>

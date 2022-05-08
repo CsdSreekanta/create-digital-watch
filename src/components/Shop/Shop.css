@@ -16,12 +16,18 @@
 .cart-container{
     position:sticky;
     top:0;
+    height: 700px;
+    width: 250px;
+    border: 2px solid gold;
+    border-radius: 8px;
+    box-shadow: 2px 2px 3px 3px;
 }
 
 .btn-container{
     display: flex;
     flex-direction: column;
-    width:70%
+    width:100%;
+   
 }
 .btn-container button{
     padding: 5px 10px;
