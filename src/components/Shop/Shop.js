@@ -5,7 +5,7 @@ import './Shop.css'
 
 const Shop = () => {
 const [products, setProducts] = useState([])
-const [cart, setCart]= useState([]);
+let [cart, setCart]= useState([]);
 
  // console.log(cart)
 
@@ -26,6 +26,15 @@ const handleAddToCart =(product) =>{
    setCart(newCart) 
   
 }
+const random =() =>{
+    if(cart.length>0){
+        const random = Math.floor(Math.random()*cart.length);
+        setCart([cart[random]])
+    }
+}
+
+
+
 
 
     return (
@@ -55,7 +64,7 @@ const handleAddToCart =(product) =>{
             ></Cart>  
                  
                     <div className="btn-container">
-                        <button  className='choose'>CHOOSE 1 FOR ME</button>
+                        <button onClick={random}  className='choose'>CHOOSE 1 FOR ME</button>
                         <button  className='choose-again'>CHOOSE AGAIN</button>
                     </div>
                     
