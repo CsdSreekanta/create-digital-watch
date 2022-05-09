@@ -33,6 +33,11 @@ const random =() =>{
     }
 }
 
+const removeAll = () =>{
+    cart =[];
+    setCart(cart)
+}
+
 
 
 
@@ -65,7 +70,7 @@ const random =() =>{
                  
                     <div className="btn-container">
                         <button onClick={random}  className='choose'>CHOOSE 1 FOR ME</button>
-                        <button  className='choose-again'>CHOOSE AGAIN</button>
+                        <button onClick={removeAll} className='choose-again'>CHOOSE AGAIN</button>
                     </div>
                     
                 </div>
