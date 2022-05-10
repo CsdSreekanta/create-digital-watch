@@ -43,5 +43,11 @@
     
 
 }
-
+@media screen and (max-width:688px) {
+    .products-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+}
 

@@ -9,7 +9,7 @@ const Cart = ({cart}) => {
         <div className='cart'>
             
            { 
-           cart.map(item => <p className='item-title'>{item.name}</p>)
+           cart.map(item =><p className='item-title'>{item.name}</p>)
            }
            
         </div>
